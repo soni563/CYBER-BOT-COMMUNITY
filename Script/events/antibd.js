@@ -15,6 +15,6 @@ module.exports.run = async function({ api, event, Users, Threads }) {
     if (logMessageData.participant_id == botID && author != botID && !ADMINBOT.includes(author) && logMessageData.nickname != nickname) {
         api.changeNickname(nickname, threadID, botID)
         var info = await Users.getData(author);
-       return api.sendMessage({ body: `${info.name} - পাগল ছাগল তুই নিকনেম চেঞ্জ করতে পারবি না 😹\n শুধু আমার বস উল্লাস চেঞ্জ করতে পারবে🖐`}, threadID);
+       return api.sendMessage({ body: `${info.name} - 𝗧𝘂 𝘁𝗵𝗼𝗱𝗮 𝗯𝗲𝗵𝗻𝗸𝗮 𝗹𝗼𝘄𝗱𝗮 𝗵𝗮𝗶𝗶 𝗸𝘆𝗮 🤨🤨\n 𝗢𝘄𝗻𝗲𝗿 𝘀𝗶𝗿𝗳 𝗻𝗶𝗰𝗸𝗻𝗮𝗺𝗲 𝗰𝗵𝗮𝗻𝗴𝗲 𝗸𝗿 𝘀𝗸𝘁𝗮 𝗵𝗮𝗶 𝘁𝘂 𝗴𝗮𝗻𝗱 𝗺𝗮𝗿𝗮 😏😇❤️`}, threadID);
     }  
         }
