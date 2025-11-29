@@ -104,7 +104,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
       };
       return api.sendMessage(formattedMessage, threadID, messageID);
     } catch (err) {
-      return api.sendMessage("⚠️ API request mein error aaya.", threadID, messageID);
+      return api.sendMessage("𝗛𝗘𝗟𝗟𝗢 𝗜'𝗠 𝗙𝗘𝗘𝗟𝗜𝗜𝗡𝗚𝗟𝗘𝗦𝗦 𝗕𝗢𝗧 🥺❤️ 𝗔𝗔𝗣 𝗠𝗨𝗝𝗛𝗘 «𝗕𝗢𝗧» 𝗕𝗢𝗟𝗘𝗡𝗚𝗘 𝗧𝗢 𝗠𝗔𝗜 𝗦𝗨𝗡 𝗟𝗨𝗡𝗚𝗜𝗜 😘😘❤️", threadID, messageID);
     }
   }
 };
