@@ -91,23 +91,6 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
       };
       return api.sendMessage(formattedMessage, threadID, messageID);
     }
-
-    try {
-      const res = await axios.get(`${global.config.KOJA}/jarvis?message=${encodeURIComponent(query)}`);
-      let reply = res.data?.reply?.trim();
-
-      if (!reply) {
-        reply = rand; // fallback to random tl line
-      }
-      const formattedMessage = {
-        body: `${name} ${reply}`
-      };
-      return api.sendMessage(formattedMessage, threadID, messageID);
-    } catch (err) {
-      return api.sendMessage("⚠️ API request mein error aaya.", threadID, messageID);
-    }
-  }
-};
 if ((event.body.toLowerCase() == "MISS YOU") || (event.body.toLowerCase() == "miss you")) {
      return api.sendMessage("< Miss You Too na 🥹🤖👅/👅-✘  🎀 🍒:))", threadID);
    };
@@ -194,7 +177,23 @@ if ((event.body.toLowerCase() == "MISS YOU") || (event.body.toLowerCase() == "mi
     return api.sendMessage(msg, threadID, messageID);
   };
 
-       }
+                            }
+  );
+    try {
+      const res = await axios.get(`${global.config.KOJA}/jarvis?message=${encodeURIComponent(query)}`);
+      let reply = res.data?.reply?.trim();
+
+      if (!reply) {
+        reply = rand; // fallback to random tl line
+      }
+      const formattedMessage = {
+        body: `${name} ${reply}`
+      };
+      return api.sendMessage(formattedMessage, threadID, messageID);
+    } catch (err) {
+      return api.sendMessage("⚠️ API request mein error aaya.", threadID, messageID);
+    }
+  }
 };
 
 module.exports.run = function({ api, event, client, __GLOBAL }) {};
