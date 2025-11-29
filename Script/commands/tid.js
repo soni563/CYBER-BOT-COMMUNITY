@@ -5,7 +5,7 @@ module.exports.config = {
 	credits: "KOJA PROJECT",
 	description: "Get box id", 
 	commandCategory: "group",
-	usages: "tid",
+	usages: "noprefix",
 	cooldowns: 5, 
 	dependencies: '',
 };
