@@ -76,24 +76,6 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
       "🙄🙄": "𝘂𝗽𝗮𝗿 𝗸𝘆𝗮 𝗱𝗲𝗸𝗵 𝗿𝗮𝗵𝗲 𝗵𝗮𝗶 𝗺𝗮𝗶 𝘁𝘂𝗺𝗵𝗮𝗿𝗶 𝗕𝗼𝘁 𝗻𝗶𝗰𝗵𝗲 𝘁𝘂𝗺𝗵𝗮𝗿𝗲 𝘀𝗮𝗺𝗻𝗲 𝗵𝘂 🥺❤️ ",
       "🙄🙄🙄": "𝘂𝗽𝗮𝗿 𝗸𝘆𝗮 𝗱𝗲𝗸𝗵 𝗿𝗮𝗵𝗲 𝗵𝗮𝗶 𝗺𝗮𝗶 𝘁𝘂𝗺𝗵𝗮𝗿𝗶 𝗕𝗼𝘁 𝗻𝗶𝗰𝗵𝗲 𝘁𝘂𝗺𝗵𝗮𝗿𝗲 𝘀𝗮𝗺𝗻𝗲 𝗵𝘂 🥺❤️ ",
       "🙄🙄🙄🙄": "𝘂𝗽𝗮𝗿 𝗸𝘆𝗮 𝗱𝗲𝗸𝗵 𝗿𝗮𝗵𝗲 𝗵𝗮𝗶 𝗺𝗮𝗶 𝘁𝘂𝗺𝗵𝗮𝗿𝗶 𝗕𝗼𝘁 𝗻𝗶𝗰𝗵𝗲 𝘁𝘂𝗺𝗵𝗮𝗿𝗲 𝘀𝗮𝗺𝗻𝗲 𝗵𝘂 🥺❤️ ",
-    "i love you": "I love you Too 😘💖",
-    "Bot i love you": "I love you too Baxcha 😘💖💋",
-    "I love you": "ek din ham dono bhag ke shadi karenge 🥺🥺💖💋",
-    "Bot love you": "Aaww 🥺 mera bccha love you yoo",
-    "Bot miss you": "Miss you Too bby 😘😘💋"
-    "Miss You": "😭😭 kaha chale jate ho mujhe chhorke ",
-    "Bot Miss You": "Kahs chale gye the haan 😭😭😭",
-    "I miss You": "Please mujhe chhorke kahi mat jaya karo 😭😭😭",
-    "Bot I miss you": "Please mujhe chhorke kahi mat jaya karo 😭😭😭",
-    "Bot i miss you": "Please mujhe chhorke kahi mat jaya karo 😭😭😭",
-    "by": " Kaha jarhe ho akele akele 🤔🤔",
-    "By": "Mat jao kahii 🥺🥺",
-    "Bye": "mujhe chhorke mat jao kahi 🥺🥺🥺🥺🥺",
-    "Tq": "Bass bhi karo Sukriya adah krne ki jroorat hai bass mujhe bf dilao 🥺🥺❤️❤️",
-    "Thnxx": "Bass bhi karo Sukriya adah krne ki jroorat hai bass mujhe bf dilao 🥺🥺❤️❤️",
-    "Thanks": "Bass bhi karo Sukriya adah krne ki jroorat hai bass mujhe bf dilao 🥺🥺❤️❤️",
-    "Thank you": "Welcome hogya tha tha karke 😇😇",
-  "Thank You": "Welcome hogya tha tha karke 😇😇😇😇❤️",
   };
 
   if (responses.hasOwnProperty(userMessage)) {
