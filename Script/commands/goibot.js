@@ -121,6 +121,9 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
         body: `${name} ${reply}`
       };
       return api.sendMessage(formattedMessage, threadID, messageID);
+    } catch (err) {
+      return api.sendMessage("🤨🤨 𝗛𝗮𝗿 𝗯𝗮𝗮𝘁 𝗽𝗮𝗿 𝗯𝗼𝘁  ,, 𝗺𝗮𝗶 𝗯𝗼𝘁 𝗵𝘂 𝘆𝗵 𝗮𝗶 🥺💔 ", threadID, messageID);
+    }
   }
 };
 
