@@ -46,12 +46,12 @@ module.exports.handleEvent = async ({ event, api, Users }) => {
     ];
     let sticker = data[Math.floor(Math.random() * data.length)];
     let moment = require("moment-timezone");
-    let hours = moment.tz('Asia/Manila').format('HHmm');
+    let hours = moment.tz('Asia/Kolkats').format('HHmm');
     let session = (
     hours > 0001 && hours <= 400 ? "bright morning" : 
     hours > 401 && hours <= 700 ? "morning" :
     hours > 701 && hours <= 1000 ? "shining" :
-    hours > 1001 && hours <= 1200 ? "lunch" : 
+    hours > 1001 && hours <= 1200 ? "noon" : 
     hours > 1201 && hours <= 1700 ? "afternoon" : 
     hours > 1701 && hours <= 1800 ? "gloaming" : 
     hours > 1801 && hours <= 2100 ? "evening" : 
